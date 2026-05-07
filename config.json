@@ -1,0 +1,43 @@
+{
+  "appName": "RoadTrip Cockpit",
+  "tripTitle": "Road Trip Premium — Berlim → Hamburgo",
+  "subtitle": "Viagem parametrizável para uso no iPhone como App/PWA, com mapa, checklist, custos, clima histórico e modo offline.",
+  "date": "04/06/2026",
+  "origin": "Berlim",
+  "destination": "Hamburgo",
+  "people": 4,
+  "couples": 2,
+  "currencyRate": 6.30,
+  "rentalCostBRL": 1786.92,
+  "fuelPriceEUR": 2.03,
+  "distanceKm": 287,
+  "fuelRates": {"eco":7.2,"normal":9.4,"sport":11.2},
+  "vehicle": "VW Golf Variant ou similar (CWAR)",
+  "timeline": [
+    {"time":"08:45","title":"Sair do hotel","desc":"Premier Inn Berlin Alexanderplatz → SIXT Alexanderplatz. Caminhada estimada: ~600 m | ~8 min a pé."},
+    {"time":"09:00","title":"Retirar o carro","desc":"Conferir contrato, combustível, caução e fotografar o veículo antes de sair."},
+    {"time":"10:45","title":"Parada inteligente","desc":"Área de serviço/restaurante de autobahn ou desvio leve para Schwerin."},
+    {"time":"14:30","title":"Chegar em Hamburgo com folga","desc":"Chegar à área central antes das 14:30 para devolver às 15:00 sem pressão."},
+    {"time":"15:00","title":"Devolução SIXT Hamburg Hbf","desc":"Depois, caminhada até o Generator Hamburg."}
+  ],
+  "locations": {
+    "originHotel": {"name":"Premier Inn Berlin Alexanderplatz","address":"Theanolte-Bähnisch-Straße 2, 10178 Berlin"},
+    "pickup": {"name":"SIXT Berlin Alexanderplatz","address":"Grunerstraße 5+7, 10179 Berlin","time":"09:00"},
+    "stop": {"name":"Schwerin Castle","address":"Schwerin Castle"},
+    "dropoff": {"name":"SIXT Hamburg Central Train Station","address":"Glockengießerwall 8 im Hbf, 20095 Hamburg","time":"15:00"},
+    "destHotel": {"name":"Generator Hamburg","address":"Steintorplatz 3, 20099 Hamburg"}
+  },
+  "checklist": [
+    "CNH válida e documento pessoal em mãos.",
+    "Cartão de crédito liberado para caução.",
+    "Confirmar proteção/seguro e franquia.",
+    "Fotografar rodas, para-choques e para-brisa antes de sair.",
+    "Salvar rotas no Google Maps/Waze.",
+    "Levar cabo de carregamento e suporte do celular.",
+    "Chegar ao destino com pelo menos 30 minutos de folga."
+  ],
+  "weather": {
+    "origin": {"label":"Berlim", "max":22, "min":13, "rainMm":62, "rainDays":9, "note":"Berlim em junho costuma ter tardes perto de 22°C, manhã/noite mais amenas e chuva moderada."},
+    "destination": {"label":"Hamburgo", "max":21, "min":11, "rainMm":71, "rainDays":10, "note":"Hamburgo em junho tende a ser um pouco mais fresco e úmido. Leve jaqueta corta-vento."}
+  }
+}
